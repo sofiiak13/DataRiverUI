@@ -1,0 +1,12 @@
+{
+    "address": "Platform 9 3/4 King's Cross St. Pancras station",
+    "device_type": {
+        "Test": 3
+    },
+    "device_name": {
+        "device1": 1,
+        "device2": 1,
+        "device3": 1
+    },
+    "lat lng": "0,0"
+}

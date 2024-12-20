@@ -1,0 +1,29 @@
+{
+    "info1": {
+        "device_id": "ghj234",
+        "name": "Smart Fridge",
+        "type": "Appliance",
+        "brand": "CoolTech",
+        "model": "FridgeX",
+        "connectivity": "Bluetooth",
+        "status": "cooling"
+    },
+    "info2": {
+        "device_id": "vbn567",
+        "name": "Smart Watch",
+        "type": "Wearable",
+        "brand": "TimeMaster",
+        "model": "WatchPro",
+        "connectivity": "Bluetooth",
+        "status": "charging"
+    },
+    "info3": {
+        "device_id": "mno890",
+        "name": "Security Camera",
+        "type": "Camera",
+        "brand": "SafeVision",
+        "model": "Cam360",
+        "connectivity": "WiFi",
+        "status": "recording"
+    }
+}

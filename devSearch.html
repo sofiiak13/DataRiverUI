@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Data River</title>
+        <link rel="icon" type="image/x-icon" href="DRflavicon.ico">
+        <link href = "style-DataRiver.css" type = "text/css" rel="stylesheet">
+        <script type="module" src="devSearch.js" defer></script>  
+    </head>
+ 
+    <body>  
+        <div class="topNav">
+            <a class="active" href="devSearch.html">Device Search</a>
+            <a href="siteSearch.html">Site Search</a>
+            
+            <div class="logo">
+                <span class="wave">~</span> Data River <span class="wave">~</span>
+            </div>
+            
+        </div>
+
+        <div class="grid-container" id="devSearch">
+            <div class="background"></div>
+                <h2>
+                    Device Search
+                </h2>
+    
+                <p id="p1">Device Name:</p>
+                    
+                <input class="searchBar" id="devName" type="text" placeholder="Type device name..">
+                
+                <p id="p2">Specify device type:</p>
+                    
+                <select name="devType" id="devType">
+                    <option value="unknown">unknown</option>
+                    <option value="Routers">Router</option>
+                    <option value="Switches">Switch</option>
+                    <option value="APs">AP</option> 
+                    <option value="Modems">Modem</option>
+                    <option value="Starlinks">Starlink</option>
+                </select>
+            
+                <button type="button" class="searchButton" onclick="deviceSearch()">Search</button>
+        </div>
+
+        <label class="darkSwitch">
+            <input type="checkbox" onclick="darkMode()">
+            <span class="slider"></span>
+        </label>
+
+    </body>
+</html>

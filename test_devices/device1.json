@@ -1,0 +1,20 @@
+{
+    "info1": {
+        "device_id": "abc123",
+        "name": "Smart Thermostat",
+        "type": "Thermostat",
+        "brand": "ThermoCo",
+        "model": "X200",
+        "connectivity": "WiFi",
+        "status": "online"
+    },
+    "info2": {
+        "device_id": "xyz789",
+        "name": "Smart Door Lock",
+        "type": "Lock",
+        "brand": "SecureHome",
+        "model": "LockPro",
+        "connectivity": "Zigbee",
+        "status": "offline"
+    }
+}

@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Data River</title>
+        <link rel="icon" type="image/x-icon" href="DRflavicon.ico">
+        <link href = "style-DataRiver.css" type = "text/css" rel="stylesheet">
+        <script type="module" src="siteSearch.js" defer></script> 
+    </head> 
+ 
+    <body>
+        <div class="topNav">
+            <a href="devSearch.html">Device Search</a>
+            <a class="active" href="siteSearch.html">Site Search</a>
+
+            <div class="logo">
+                <span class="wave">~</span> Data River <span class="wave">~</span>
+            </div>
+            
+        </div>
+
+        <div class="grid-container" id="siteSearch">
+            <div class="background"></div>
+            <h2>
+                Site Search
+            </h2>
+    
+            <p id="p1">Site Name:</p>
+                        
+            <input class="searchBar" id="site_code" type="text" placeholder="Type site name..">
+            <button type="button" class="searchButton" onclick="siteSearch()">Search</button>
+        </div>
+
+        <label class="darkSwitch">
+            <input type="checkbox" onclick="darkMode()">
+            <span class="slider"></span>
+        </label>
+        
+    </body>
+</html> 

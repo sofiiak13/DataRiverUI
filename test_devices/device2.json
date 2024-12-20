@@ -1,0 +1,29 @@
+{
+    "info1": {
+        "device_id": "qwe456",
+        "name": "Weather Sensor",
+        "type": "Sensor",
+        "brand": "ClimaTrack",
+        "model": "WS300",
+        "connectivity": "LoRaWAN",
+        "status": "active"
+    },
+    "info2": {
+        "device_id": "asd789",
+        "name": "Robot Vacuum",
+        "type": "Vacuum",
+        "brand": "CleanBot",
+        "model": "RoboVacX",
+        "connectivity": "WiFi",
+        "status": "idle"
+    },
+    "info3": {
+        "device_id": "zxc123",
+        "name": "Smart Speaker",
+        "type": "Speaker",
+        "brand": "SoundGenie",
+        "model": "EchoMax",
+        "connectivity": "WiFi",
+        "status": "online"
+    }
+}
